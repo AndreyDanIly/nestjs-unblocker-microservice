@@ -41,7 +41,7 @@ The request body must be a JSON object with the following properties:
 | Field    | Type    | Required | Description                                  |
 | -------- | ------- | -------- | -------------------------------------------- |
 | `url`    | `string`| `true`   | The full URL of the page you want to scrape. |
-| `render` | `boolean`| `false`  | (Future use) Not currently implemented.      |
+| `render` | `boolean`| `true`  | (Future use) Render the HTML.                |
 
 ## Example Request (`curl`)
 
